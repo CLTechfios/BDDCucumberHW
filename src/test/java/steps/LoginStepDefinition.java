@@ -15,7 +15,6 @@ import pages.TestBase;
 
 public class LoginStepDefinition extends TestBase {
 	LoginPage loginPage;
-	
 	DashboardPage dashboardPage;
 	ListAccountPage listAccountPage;
 	
@@ -23,13 +22,13 @@ public class LoginStepDefinition extends TestBase {
 	@Before
 	public void beforeRun () {
 		initDriver();
-		loginPage = PageFactory.initElements(driver, LoginPage.class);
-		dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
-		listAccountPage = PageFactory.initElements(driver, ListAccountPage.class);
+		loginPage = new LoginPage(driver);
+		dashboardPage = new DashboardPage(driver);
+		listAccountPage = new ListAccountPage(driver);
 		
 	}
 	
-	@After
+//	@After
 	public void tearDown() {
 		driver.close();
 		driver.quit();

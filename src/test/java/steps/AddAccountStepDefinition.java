@@ -14,10 +14,11 @@ import pages.TestBase;
 public class AddAccountStepDefinition extends TestBase {
 	LoginPage loginPage;
 	DashboardPage dashboardPage;
-	ListAccountPage listAccountPage = PageFactory.initElements(driver, ListAccountPage.class);
+	ListAccountPage listAccountPage;
 
 	@Then("User enters {string} in the {string} field in accounts page")
 	public void user_enters_in_the_field_in_accounts_page(String accountData, String fieldName) {
+		listAccountPage = new ListAccountPage(driver);
 		if (fieldName.equalsIgnoreCase("accountName")) {
 			listAccountPage.enterAccountName(accountData);
 		} else if (fieldName.equalsIgnoreCase("description")) {
