@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1560155700,
+              "duration": 1483356700,
               "status": "passed"
             },
             "line": 6,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-08-31T17:27:21.288Z",
+        "start_timestamp": "2024-09-05T22:29:59.520Z",
         "before": [
           {
             "result": {
-              "duration": 846721600,
+              "duration": 868588400,
               "status": "passed"
             },
             "match": {
@@ -40,23 +40,12 @@
         "name": "User should  be able to login with valid credentials and open a new account",
         "description": "",
         "id": "codefios-other-add-new-account-validation;user-should--be-able-to-login-with-valid-credentials-and-open-a-new-account;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 174077300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.LoginStepDefinition.tearDown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 65308300,
+              "duration": 254654600,
               "status": "passed"
             },
             "line": 10,
@@ -78,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 40996400,
+              "duration": 103518400,
               "status": "passed"
             },
             "line": 11,
@@ -100,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 7973236900,
+              "duration": 9394904500,
               "status": "passed"
             },
             "line": 12,
@@ -118,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 3981100,
+              "duration": 3991200,
               "status": "passed"
             },
             "line": 13,
@@ -130,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 1785357800,
+              "duration": 1674896200,
               "status": "passed"
             },
             "line": 14,
@@ -148,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 33478600,
+              "duration": 30776300,
               "status": "passed"
             },
             "line": 15,
@@ -166,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 274469900,
+              "duration": 274068400,
               "status": "passed"
             },
             "line": 16,
@@ -188,7 +177,7 @@
           },
           {
             "result": {
-              "duration": 53962600,
+              "duration": 60797100,
               "status": "passed"
             },
             "line": 17,
@@ -210,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 45599200,
+              "duration": 41934100,
               "status": "passed"
             },
             "line": 18,
@@ -232,7 +221,7 @@
           },
           {
             "result": {
-              "duration": 65428800,
+              "duration": 56809400,
               "status": "passed"
             },
             "line": 19,
@@ -254,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 47771800,
+              "duration": 47834800,
               "status": "passed"
             },
             "line": 20,
@@ -276,7 +265,7 @@
           },
           {
             "result": {
-              "duration": 32179300,
+              "duration": 29897500,
               "status": "passed"
             },
             "line": 21,
@@ -294,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 8027048100,
+              "duration": 8025490700,
               "status": "passed"
             },
             "line": 22,
